@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 import NavBar from './components/common/NavBar';
 import Home from './pages/Home';
 import Recipes from './pages/Recipes';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import RecipeDetails from './components/RecipeDetails';
 
 function App() {
@@ -12,9 +12,9 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/recipes" element={<Recipes />} />
-        <Route path="/recipes/:recipeId" element={<RecipeDetails />} />
+        <Route exact path="/cook_mate" element={<Home />} />
+        <Route path="/cook_mate/recipes" element={<Recipes />} />
+        <Route path="/cook_mate/recipes/:recipeId" element={<RecipeDetails />} />
       </Routes>
     </Router>
   );

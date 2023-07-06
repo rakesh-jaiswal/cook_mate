@@ -17,7 +17,7 @@ const RecipeListItem = ({ recipe }) => {
             <Card.Content>
                 <Button 
                     as={Link}
-                    to={`/recipes/${recipe.recipe_id}`}
+                    to={`/cook_mate/recipes/${recipe.recipe_id}`}
                     content="Details"
                     color="blue"
                     size="tiny"

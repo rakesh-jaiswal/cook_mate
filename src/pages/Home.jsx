@@ -11,7 +11,7 @@ const Home = () => {
                 content="SEARCH RECIPES"
                 color="primary"
                 as={Link}
-                to="/recipes"
+                to="/cook_mate/recipes"
                 size="big"
             />
         </Header>

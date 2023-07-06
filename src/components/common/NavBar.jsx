@@ -7,11 +7,11 @@ const NavBar = () => {
 
     return (
         <Menu borderless fixed="top">
-            <Menu.Item>
+            <Menu.Item name="Home" as ={Link} to="/cook_mate">
                 <img src={logo} alt="logo" className='logo' />
             </Menu.Item>
-           <Menu.Item name="Home" as={Link} to="/" /> 
-           <Menu.Item name="Recipes" as={Link} to="/recipes" /> 
+           <Menu.Item name="Home" as={Link} to="/cook_mate" /> 
+           <Menu.Item name="Recipes" as={Link} to="/cook_mate/recipes" /> 
         </Menu>
     )
 }
