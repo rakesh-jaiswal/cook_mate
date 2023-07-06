@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cook_mate/static/css/main.1b6b5a6d.css",
-    "main.js": "/cook_mate/static/js/main.b4181a40.js",
+    "main.js": "/cook_mate/static/js/main.3a645f1f.js",
     "static/js/787.7423e620.chunk.js": "/cook_mate/static/js/787.7423e620.chunk.js",
     "static/media/brand-icons.svg": "/cook_mate/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/cook_mate/static/media/icons.62d9dae4e0040e81c980.svg",
@@ -19,14 +19,13 @@
     "static/media/flags.png": "/cook_mate/static/media/flags.99f63ae7a743f21ab308.png",
     "static/media/outline-icons.woff": "/cook_mate/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/cook_mate/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
-    "static/media/logo.svg": "/cook_mate/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/cook_mate/index.html",
     "main.1b6b5a6d.css.map": "/cook_mate/static/css/main.1b6b5a6d.css.map",
-    "main.b4181a40.js.map": "/cook_mate/static/js/main.b4181a40.js.map",
+    "main.3a645f1f.js.map": "/cook_mate/static/js/main.3a645f1f.js.map",
     "787.7423e620.chunk.js.map": "/cook_mate/static/js/787.7423e620.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b6b5a6d.css",
-    "static/js/main.b4181a40.js"
+    "static/js/main.3a645f1f.js"
   ]
 }
